@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Phonebook</h1>
+      <h1 className="title">Phonebook</h1>
       <ContactForm onAddContact={addContact} />
       <SearchBox filter={filter} onChange={setFilter} />
       <ContactList
